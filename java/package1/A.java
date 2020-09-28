@@ -1,7 +1,10 @@
 package package1;
 
 public class A {
-    protected String field;
+    private int filed1;
+    int filed2;
+    protected int field3;
+    public int field4;
 
     protected A() {
 
