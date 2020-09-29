@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>입력양식 요소</title>
+</head>
+
+<body>
+    <form action="result.jsp" method="post">
+        이름 : <input type="text" size="10" maxlength="8"><br>
+        학번 : <input type="text"><br>
+        비밀번호 : <input type="password"><br>
+        성별 :
+        <input type="radio" name="gender">남
+        <input type="radio" name="gender">여
+        <br>
+        과일선택 :
+        <input type="checkbox" name="fruit" checked> Apple
+        <input type="checkbox" name="fruit"> Grape
+        <input type="checkbox" name="fruit"> Orange
+        <br>
+        <input type="button" value="버튼" onclick="alert('경고');">
+        <br>
+        <button>눌러보세요</button>
+        <br>
+        <input type="image" src="/image/button.png">
+        <br>
+        고객의 소리<br>
+        <textarea cols="30" rows="10"></textarea>
+        <input type="submit" value="제출">
+        <input type="reset" value="초기화">
+        <br>
+        <br>
+        <input type="submit" value="전송">
+    </form>
+
+</body></html>
