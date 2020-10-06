@@ -1,2 +1,5 @@
 .idea/
 out/
+자바/.metadata/
+*.class
+자바/
