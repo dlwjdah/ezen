@@ -1,0 +1,18 @@
+h1 {
+	font-size: 25px;
+	font-family: "PENHL", "궁서체";
+
+}
+
+strong,
+em {
+	font-size: 15px;
+	font-style: italic;
+	font-family: "HY견명조";
+}
+
+li {
+	font-family: "휴먼매직체";
+	font-weight: bold;
+	font-size: 18px;
+}

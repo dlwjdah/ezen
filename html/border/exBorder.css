@@ -1,0 +1,14 @@
+div.sty {
+	width: 500px;
+	height: 200px;
+	border: 2px solid red;
+	border-radius: 40px;
+	padding: 40px;
+}
+
+div.shadow {
+	width: 300px;
+	height: 50px;
+	background-color: green;
+	box-shadow: 20px 10px 15px #000000;
+}

@@ -1,0 +1,18 @@
+{
+    "extensions": {
+        "brackets-beautify": true,
+        "mikaeljorhult.brackets-autoprefixer": true,
+        "mikailcolak.brackets-color-picker": true,
+        "ivogabe.icons": true,
+        "camden.csslint": true,
+        "brackets-emmet": true,
+        "milosh86.extensions-bulk-installer": false,
+        "camden.htmlhint": true,
+        "brackets-indent-guides": true,
+        "interactive-linter": true,
+        "jquinter": true,
+        "dnbard.lorem-pixel": true,
+        "strong.justin.openinbrowser": true,
+        "umoxfo.w3cvalidation": true
+    }
+}
