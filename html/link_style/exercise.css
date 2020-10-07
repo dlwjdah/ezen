@@ -1,0 +1,19 @@
+ul.a {
+	list-style-type: circle;
+}
+
+ul.b {
+	list-style-type: square;
+}
+
+ul.c {
+	list-style-type: upper-roman
+}
+
+ul.d {
+	list-style-image: url('/cycle.png');
+}
+
+ul.e {
+	list-style-type: lower-alpha
+}

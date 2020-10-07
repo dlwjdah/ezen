@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>마진과 패딩</title>
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		p#old {
+			margin: 0px;
+			padding: 0px;
+			background-color: yellow;
+			border: 1px solid red;
+		}
+
+		#target {
+			margin: 10px;
+			padding: 20px;
+			background-color: green;
+			border: 1px solid red;
+		}
+
+		p#new,
+		em {
+			border: 2px dotted red;
+		}
+
+		p#new {
+			width: 50%;
+
+			text-align: center;
+			margin: auto;
+
+		}
+	</style>
+</head>
+
+<body>
+	<p id="old">margin:0px, padding:0px인 단락입니다.</p>
+	<div id="target">margin:10px, padding:20px인 단락입니다.</div>
+	<p id="new"><em>My Text</em></p>
+
+</body></html>

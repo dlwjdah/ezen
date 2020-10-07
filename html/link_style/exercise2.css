@@ -1,0 +1,23 @@
+ul {
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 10px 0;
+}
+
+ul li {
+	display: inline;
+	text-decoration: uppercase;
+	padding: 0 10px;
+	letter-spacing: 10px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+#target1 {
+	background-color: yellow;
+	width: 100px;
+	height: 50px;
+}
+
+#target2 {
+	background-color: lightgreen;
+	width: 100px;
+	height: 50px;
+	border: 10px solid blue;
+}
+
+#target3 {
+	background-color: yellow;
+	width: 100px;
+	height: 10;
+	overflow: auto;
+	resize: both;
+	margin: 20px;
+}
