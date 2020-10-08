@@ -1,0 +1,19 @@
+#list {
+	font-family: "sans-serif", "굴림";
+	width: 100%
+}
+
+#list td,
+th {
+	border: 1px dotted gray;
+	text-align: center;
+}
+
+#list th {
+	color: white;
+	background-color: blue;
+}
+
+.alt {
+	background-color: yellow;
+}
