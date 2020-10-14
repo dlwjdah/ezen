@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		img {
+			opacity: 0.4;
+		}
+
+		img : hover {
+			opacity: 1.0;
+		}
+
+		#a {
+			visibility: hidden;
+			border: 1px dotted red;
+		}
+
+		#b {
+			visibility: visible;
+			border: 1px dotted red;
+		}
+
+		#trans {
+			width: 100px;
+			height: 50px;
+			background-color: yellow;
+			border: 1px solid black;
+			transition: width 1s, height 1s, border 1s, transform 1s;
+		}
+
+		#trans:hover {
+			width: 200px;
+			height: 100px;
+			border: 10px solid red;
+			transform: rotate(180deg);
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Opacity 속성</h1>
+	<img src="coffee3.jpg" width="150px" height="120" alt="coffee" />
+	<img src="back.gif" width="150" height="120" alt="tree" />
+	<h1>Visibility 속성</h1>
+	<img id="a" src="coffee3.jpg" width="150px" height="120" alt="coffee" />
+	<img id="b" src="back.gif" width="150" height="120" alt="tree" />
+	<div id="trans">마우스를 올려보세요</div>
+</body></html>
