@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f3f1e9;
+}
+
+header {
+
+	height: 60px;
+	margin: 10px;
+}
+
+nav {
+	margin: 10px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 10px 0;
+}
+
+nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 10px;
+	letter-spacing: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover {
+	color: red;
+	font-weight: bold;
+}
+
+aside#left {
+
+	width: 175px;
+	margin-top: 20px;
+	float: left;
+}
+
+
+#left h4 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+#left ul {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	list-style: none;
+	text-indent: 15px;
+	color: #fff;
+}
+
+#left ul li {
+	border-bottom: 1px solid #333;
+	background: #3f3f3f;
+	line-height: 28px;
+}
+
+#left ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+
+}
+
+#left ul li a:hover {
+	background: #d40203;
+}
+
+#main {
+	width: 430px;
+	float: left;
+}
+
+aside#right {
+	margin-left: 10px;
+
+}
+
+#shopcart {
+	margin-bottom: 20px;
+}
+
+footer {
+	height: 50px;
+	clear: both;
+	width: 100%;
+	background-image: url(footer_bg.gif);
+	background-position: left top;
+	background-repeat: repeat-x;
+	line-height: 70px;
+	text-align: center;
+}

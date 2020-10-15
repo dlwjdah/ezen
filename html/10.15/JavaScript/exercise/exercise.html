@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		function calc() {
+
+			var x = document.getElementById("x").value;
+
+			var y = document.getElementById("y").value;
+			var sum;
+
+			sum = parseInt(x) + parseInt(y);
+			document.getElementById("sum").value = sum;
+		}
+	</script>
+	<form>
+		첫번째 숫자 : <input type="text" id="x"> <br>
+		두번째 숫자 : <input type="text" id="y"> <br>
+		<input type="button" value="계산" onclick="calc();"><br>
+		결과 : <input type="text" id="sum">
+	</form>
+
+</body></html>
