@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>약수 구하기</title>
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<script>
+		var cnt = 0,
+			sum = 0;
+		var num = parseInt(prompt("약수를 구하기 위한 숫자를 입력하세요.."));
+		document.write(num + "의 약수<br>")
+		for (i = 1; i <= num; i++) {
+			if (num % i == 0) {
+				document.write(i + "<br>");
+				cnt++;
+				sum += i;
+			}
+		}
+		document.write("약수의 개수 : " + cnt + "개<br>");
+		document.write("약수의 합 :" + sum + "<br>")
+	</script>
+</body></html>

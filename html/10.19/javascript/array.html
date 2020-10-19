@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+	<!--
+	<script>
+		var num = new Array(24, 50, 8, 16, 24, 36, 8, 45, 38, 83);
+		var max = 0;
+		for (i = 0; i < 10; i++) {
+			if (max < num[i]) {
+				max = num[i];
+			}
+
+		}
+		document.write("최대값 : " + max);
+	</script>
+-->
+	<script>
+		var charArr = new Array();
+		str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+		for (i = 0; i < 26; i++) {
+			charArr[i] = str.charAt(i);
+			document.write(charArr[i])
+		}
+		document.write("<br>");
+
+		temp = charArr[0];
+		charArr[0] = charArr[25];
+		charArr[25] = temp;
+		for (i = 0; i < 26; i++) {
+			document.write(charArr[i]);
+		}
+		document.write("<br>");
+	</script>
+
+</body></html>
