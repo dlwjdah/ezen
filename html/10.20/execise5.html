@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+		function processConfirm(answer) {
+			var result = ""
+			if (answer) {
+				result = "좋습니다. 게임을 시작합니다.."
+			} else {
+				result = "네, 나중에 하시요."
+			}
+			return result;
+		}
+	</script>
+</head>
+
+<body>
+	<script>
+		var confirmAnswer = confirm("게임 한판 하실래요?");
+		var theAnswer = processConfirm(confirmAnswer);
+		alert(theAnswer);
+	</script>
+
+</body></html>

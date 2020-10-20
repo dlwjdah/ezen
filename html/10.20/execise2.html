@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>javaScript</title>
+</head>
+
+<body>
+	<script>
+		var arr = new Array(11, 134, 432, 11, 26, 11, 55, 60, 12, 1);
+		var low = 0,
+			high = 9;
+		var flag = true;
+		num = parseInt(prompt("찾으시는 숫자는"));
+		while (true) {
+			cnt = parseInt((low + high) / 2);
+			if (num == arr[cnt])
+				break;
+			if (num < arr[cnt])
+				high--;
+			else
+				low++;
+			if (low > high) {
+				flag = false;
+				break;
+			}
+		}
+		if (flag == true)
+			document.write("숫자 " + " -> " + num + "은 " + (cnt + 1) + "번째 입니다.<br/>");
+		else
+			document.write("찾으시는 숫자는 없습니다.")
+	</script>
+</body></html>

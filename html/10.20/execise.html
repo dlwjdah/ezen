@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>javaScript</title>
+</head>
+
+<body>
+	<script>
+		var arr = new Array(11, 134, 432, 11, 26, 11, 55, 60, 12, 1);
+		var cnt = 0;
+		num = parseInt(prompt("찾으시는 숫자는"));
+		for (i = 0; i < 10; i++) {
+			if (num == arr[i]) {
+				document.write("숫자 " + " -> " + num + "은 " + (i + 1) + "번째 입니다.<br/>");
+				cnt++;
+			}
+		}
+		document.write("전체 " + cnt + "번");
+	</script>
+</body></html>
