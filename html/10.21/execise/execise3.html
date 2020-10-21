@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var idno = prompt("주민번호를 입력해주세요..");
+		document.write("19" + idno.substring(0, 2) + "년" + idno.substring(2, 4) + "월" + idno.substring(4, 6) + "일" + "<br>");
+
+		if (idno.charAt(7) % 2 == 1) {
+			document.write("남성 입니다.");
+		} else {
+			document.write("여성 입니다.");
+		}
+
+	</script>
+
+</body>
+
+</html>

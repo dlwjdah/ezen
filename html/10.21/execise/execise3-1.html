@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var idno = prompt("주민번호를 입력해주세요..");
+
+		year = idno.substr(0, 2);
+		month = idno.substr(2, 2);
+		day = idno.substr(4, 2);
+
+		gender = idno.charAt(7);
+		if (gender < 3) year = "19" + year;
+		else
+			year = "20" + year;
+
+		document.write(" 생년월일 : " + year + "년" + month + "월" + day + "일<br>");
+
+		if (idno.charAt(7) % 2 == 1)
+			document.write("성별 : 남자");
+		else
+			document.write("성별 : 여자");
+
+	</script>
+	<!-->
+.substr(x,y) -> x인덱스부터 y개수만큼
+.substring(x,y) -> x 인덱스부터 y
+</!-->
+</body>
+
+</html>

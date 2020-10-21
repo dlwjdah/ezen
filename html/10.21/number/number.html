@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		var count1, count2;
+		count1 = new Number(1.237);
+		count2 = 1.238;
+		document.write(count1 + " " + count2 + "<br>");
+		for (i = 0; i <= 3; i++) {
+			if (count1.toFixed(i) === count2.toFixed(i)) {
+				document.write("소수점" + i + "째 자리까지 같습니다.<br>");
+			} else {
+				document.write("소수점 " + i + "째 자리는 틀리네요.<br>");
+			}
+		}
+
+	</script>
+</head>
+
+<body>
+
+</body>
+
+</html>
