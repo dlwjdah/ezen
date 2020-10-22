@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+		str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		var array = new Array();
+		for (i = 0; i < str.length; i++) {
+			array[i] = str.charAt(i);
+		}
+		// 배열을 이용한 삼각형 출력1
+		for (i = 0; i < str.length; i++) {
+			for (j = 0; j <= i; j++) {
+				document.write(array[j]);
+			}
+			document.write("<br>");
+		}
+
+		// String 메소드를 활용한 출력1
+		for (i = 1; i <= 26; i++) {
+			document.write(str.substr(0, i) + "<br>");
+		}
+		document.write("<br>");
+		// 배열을 이용한 rotate 출력1
+		for (i = 1; i <= 26; i++) {
+			for (j = 0; j < 26; j++) {
+				document.write(array[j]);
+			}
+			document.write("<br>");
+
+			temp = array[0];
+			for (j = 1; j <= 25; j++) {
+				array[j - 1] = array[j];
+			}
+			array[25] = temp;
+		}
+		document.write("<br>");
+		// String 메소드를 활용한 rotate 출력2
+		var start = 1;
+		var end = 0;
+		document.write(str + "<br>");
+		for (i = 1; i < 26; i++) {
+			str2 = str.substr(i, 26 - i) + str.substr(0, i);
+			document.write(str2 + "<br>");
+		}
+	</script>
+</head>
+
+<body>
+
+</body></html>
